@@ -101,6 +101,7 @@ div.pg-home {
 
 	div.pg-home section ul li figure img{
 		width: 160px;
+		border-radius: 5px;
 	}
 
 	div.pg-home section ul li figure figcaption{
@@ -145,108 +146,30 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /* VARIÁVEIS */
 
-:root {
-	--color-fundo: #141414;
-	--color-textUsers: #808080;
-}
 
-/*BODY*/
 
-html, body{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
-body {
-	background-color: var(--color-fundo);
-	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;;
-	height: 100vh;
-}
-
-/*TOPO*/
-
-header.topo {
-	display: flex;
-	
-}
-
-header.topo figure {
-	width: 60px;
-}
-
-header.topo figure > figcaption {
-	visibility: hidden;
-}
-
-/*RODAPÉ*/
-
-footer button{
-	background-color: transparent;
-	color: var(--color-textUsers);
-	border: 1px solid var(--color-textUsers);
-	text-transform: uppercase;
-	padding: 5px 20px
-}
-
-/*PÁGINA INICIAL*/
-
-div.pg-home {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	width: auto;
-	
-}
-
-	div.pg-home section{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
 
 	div.pg-home section ul{
-		display: flex;
 		width: 80vw;
-		list-style-type: none;
-		padding: 0;
-		justify-content: center;
 		flex-wrap: wrap;
 	}
 	
 	div.pg-home section ul li{
 		width: 21vw;
-		padding: 0;
-		margin: 0;
 	}
 
 	div.pg-home section ul li figure{
 		width: 100%;
-		margin: 0;
-		text-align: center;
 	}
 	
 
 	div.pg-home section ul li figure img{
 		width: 80px;
-		border-radius: 5px;
 	}
 
-	div.pg-home section ul li figure figcaption{
-		color: var(--color-textUsers);
-	}
-
-	div.pg-home section ul li h3{
-		visibility: hidden;
-	}
 
 	div.pg-home section ul li.addPerfil{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: flex-end;
 		width: 100%;
 	}
 
